@@ -44,6 +44,8 @@ a{
 }
 
 .container-centralizado{
+    height: 100%;
+    background-color:rgb(202, 203, 218);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -150,6 +152,10 @@ a{
     height: auto;
   }
 
+.sobre{
+    width: 80%;
+  }
+  
 .sobre p{
     text-align: justify;
     margin: 20px;
@@ -166,7 +172,7 @@ a{
 }
 
 footer{
-    margin-top: 80px;
+    /* margin-top: 80px; */
     width: 100%;
     background-color: grey;
     color: aliceblue;

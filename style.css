@@ -110,11 +110,19 @@ a{
     list-style: none;
     align-items: center;
     max-width: 200px;
+    justify-content: center;
+	text-align: center;
+    color: black;
+    /* border: 1px solid firebrick; */
 }
 
 .produto img{
-    max-width: 200px;
-    max-height: 180px ;
+    max-width: auto;
+    height: 100px ;
+}
+
+.produto p{
+    font-size: smaller;
 }
 
 .tabela-de-produtos {
@@ -123,6 +131,11 @@ a{
     border-collapse: collapse;
   }
   
+  .tabela-de-produtos th{
+    background-color: darkcyan;
+    color: aliceblue;
+  }
+
   .tabela-de-produtos th,
   .tabela-de-produtos td {
     border: 1px solid #ccc;
@@ -141,8 +154,11 @@ footer{
     width: 100%;
     background-color: grey;
     color: aliceblue;
-    padding-top: 30px;
     bottom: 0;
     text-align: center;
     font-weight: lighter;
+}
+
+footer p{
+    padding: 30px;
 }

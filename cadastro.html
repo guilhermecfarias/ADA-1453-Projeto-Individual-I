@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Cadastrar Produto</title>
 </head>
 <body>
-    
+
+    <header>
+        <h1>Cadastrar Produto</h1>
+    </header> 
+
+    <div class="container">
+        <aside class="menu-lateral">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalogo.html">Ver Produtos</a></li>
+                <li><a href="tabela.html">Tabela de Preços</a></li>
+                <li><a href="cadastro.html">Cadastrar Produto</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </aside>    
+        <main>
+            <form action="#" method="post">
+                <label for="nome">Nome do Produto:</label>
+                <input type="text" id="nome" name="nome" required>
+            
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+            
+                <label for="imagem">Imagem do Produto:</label>
+                <input type="file" id="imagem" name="imagem">
+            
+                <label for="categoria">Categoria:</label>
+                <select id="categoria" name="categoria">
+                  <option value="audio">Áudio</option>
+                  <option value="informatica">Informática</option>
+                  <option value="smart-home">Smart Home</option>
+                  <option value="eletrodomestico">Eletrodoméstico</option>
+                </select>
+            
+                <button type="submit">Cadastrar Produto</button>
+              </form>
+        </main>
+
+        </div>
+    <footer>
+        <p>Designed by: Guilherme F. - ADA - Turma 1453</p>
+    </footer> 
 </body>
 </html>

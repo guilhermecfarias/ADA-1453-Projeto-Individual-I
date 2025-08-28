@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    width: 100%;
+    flex: 1;
+}
+
+main form{
+display: flex;
+flex-direction: column;
+padding: 30px;
+}
+
+/* main form input[
+    flex:1 ;
+] */
+
+header{
+    top: 0;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+header h1{
+    padding: 50px 0;
+    color: rgb(65, 109, 110);
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-centralizado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(65, 109, 110);
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    color: rgb(65, 109, 110);
+    gap: 30px;
+}
+
+.menu-inicial{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.menu-inicial-item{
+    padding: 30px;
+    border-radius: 5px;
+    justify-content: space-between;
+    background-color: rgb(97, 175, 176);
+    color: white;
+}
+.menu-inicial-item:hover{
+    box-shadow: 0 2px 3px rgb(65, 109, 110);
+}
+
+.menu-lateral{
+    display: flex;
+    padding: 20px;
+    width: 250px;
+    color: rgb(119, 168, 169);
+    border-right: 1px solid;
+}
+
+.menu-lateral ul li{
+    padding: 5px 0px;
+    list-style: none;
+}
+
+.menu-lateral ul li a{
+    color: rgb(30, 60, 61);
+}
+
+.menu-lateral ul li a:hover{
+    color: cadetblue;
+}
+
+.lista-de-produtos{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 900px;
+    gap: 30px;
+}
+
+.produto{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    max-width: 200px;
+}
+
+.produto img{
+    max-width: 200px;
+    max-height: 180px ;
+}
+
+.tabela-de-produtos {
+    width: 90%;
+    font-size: small;    
+    border-collapse: collapse;
+  }
+  
+  .tabela-de-produtos th,
+  .tabela-de-produtos td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+    vertical-align: top;
+  }
+  
+  .tabela-de-produtos img {
+    max-width: 30px;
+    height: auto;
+  }
+
+  
+footer{
+    width: 100%;
+    background-color: grey;
+    color: aliceblue;
+    padding-top: 30px;
+    bottom: 0;
+    text-align: center;
+    font-weight: lighter;
+}
